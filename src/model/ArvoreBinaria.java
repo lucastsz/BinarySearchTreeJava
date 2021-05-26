@@ -1,7 +1,8 @@
-package arvoreBinaria;
+package model;
 
 import java.util.ArrayList;
 import java.util.List;
+import util.Impressao;
 
 
 public class ArvoreBinaria {
@@ -473,7 +474,7 @@ private No buscaRecursiva(No no, int valor){
 
      public void imprimir() {
 
-          TreePrinter<No> p = new TreePrinter<>(n -> n.dado + "", n -> n.esquerdo, n -> n.direito);
+          Impressao<No> p = new Impressao<>(n -> n.dado + "", n -> n.esquerdo, n -> n.direito);
           p.setSquareBranches(false);
           p.printTree(raiz);
 

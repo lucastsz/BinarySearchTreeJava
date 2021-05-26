@@ -1,6 +1,6 @@
-package arvoreBinaria.app;
+package main;
 
-import arvoreBinaria.ArvoreBinaria;
+import model.ArvoreBinaria;
 
 public class AppArvoreBinaria {
     public static void main(String[] args) {

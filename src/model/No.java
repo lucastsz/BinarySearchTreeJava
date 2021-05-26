@@ -1,4 +1,4 @@
-package arvoreBinaria;
+package model;
 
 
 public class No {
