@@ -20,7 +20,7 @@ public class AppArvoreBinaria {
         a.inserirI(9);
         
         System.out.println("IMPRIMIR ARVORE:");
-        a.imprimirCorreto();
+        a.imprimir();
         
         /*
         System.out.println("");

@@ -471,11 +471,13 @@ private No buscaRecursiva(No no, int valor){
         return raiz.noPaiMaiorNoFilho();
     }
 
-    public void imprimirCorreto(){
-    
-    Impressao.printNode(raiz);
-    
-}
+     public void imprimir() {
+
+          TreePrinter<No> p = new TreePrinter<>(n -> n.dado + "", n -> n.esquerdo, n -> n.direito);
+          p.setSquareBranches(false);
+          p.printTree(raiz);
+
+    }
     
 
 }
